@@ -1,0 +1,99 @@
+:root {
+    --white: #ffffff;
+    --main-first: #024b6a;
+    --main-second: #155083;
+    --main-third: #0f6c73;
+    --theme: #032232;
+}
+
+* {
+    font-family: "DM sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: var(--white);
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 0;
+    color: var(--white);
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    color: var(--white);
+    z-index: 2;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+    color: var(--white);
+    z-index: 2;
+    font-size: 16px;
+}
+
+.home {
+
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.call-to-action {
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #d70c4f;
+    z-index: 2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.main-1st {
+    background-color: var(--main-first);
+}
+
+.main-2nd {
+    background-color: var(--main-second);
+}
+
+.main-3d {
+    background-color: var(--main-third);
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--white);
+}

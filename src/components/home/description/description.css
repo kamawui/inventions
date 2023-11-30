@@ -1,0 +1,44 @@
+.description {
+    width: 80%;
+    margin: 0 auto;
+}
+.header-container {
+    width: 160px;
+    height: 30px;
+    background-color: #43aebc;
+    border-radius: 5px;
+    margin: -15px auto;
+    z-index: 30;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description-container {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.description-item {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.description-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -20px auto;
+}
+.description-item h4 {
+    padding: 20px 0 0;
+}
+.description-item p {
+    text-align: center;
+    padding: 10px 15px;
+    color: var(--white);
+}

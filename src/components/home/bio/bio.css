@@ -1,0 +1,11 @@
+.bio {
+    background-color: var(--theme);
+    padding: 40px 0;
+}
+.bio-content {
+    width: 1140px;
+    margin: 0 auto;
+}
+.bio-content h2 {
+    padding: 5px 0;
+}
