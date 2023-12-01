@@ -3,6 +3,7 @@ import "../styles/styles.css";
 import Header from "../components/header/Header";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "../pages/HomePage";
+import Footer from "../components/footer/Footer";
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
                 <Routes>
                     <Route index exact path="/" element={<HomePage/>}/>
                 </Routes>
+                <Footer />
             </div>
         </BrowserRouter>
     )

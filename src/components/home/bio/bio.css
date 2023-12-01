@@ -9,3 +9,10 @@
 .bio-content h2 {
     padding: 5px 0;
 }
+.bio-item {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    border-bottom: 1px solid var(--white-selected);
+    padding: 10px 0;
+}

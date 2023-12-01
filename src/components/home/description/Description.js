@@ -6,7 +6,7 @@ import Content from "../../../svg/Content";
 
 const Description = () => {
     return (
-        <div className="description">
+        <div className="description white">
             <div className="header-container"><h3>Про проект</h3></div>
             <div className="description-container">
                 <div className="description-item main-1st">

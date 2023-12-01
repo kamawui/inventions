@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--main-third);
+    padding: 40px 0 0;
+}
+.footer-wrapper {
+    background-color: var(--theme);
+    padding: 40px 0;
+}
+.footer-content {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer-header {
+    padding: 20px 0;
+}
+.resource, .link {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.resource span {
+    margin: 0 20px 0 0;
+}
+.resource a {
+    margin: 0 20px 0 0;
+    color: var(--main-first);
+}
+
+.link a {
+    margin: 0 10px;
+    color: var(--main-first);
+}

@@ -1,9 +1,11 @@
 :root {
     --white: #ffffff;
+    --white-selected: #bababa;
     --main-first: #024b6a;
     --main-second: #155083;
     --main-third: #0f6c73;
     --theme: #032232;
+    --black: #171717;
 }
 
 * {
@@ -25,7 +27,6 @@ a {
 h1 {
     margin: 0;
     text-align: center;
-    color: var(--white);
     z-index: 2;
     text-transform: uppercase;
     font-size: 40px;
@@ -33,7 +34,6 @@ h1 {
 
 h2 {
     margin: 0;
-    color: var(--white);
     z-index: 2;
     text-transform: uppercase;
     font-size: 28px;
@@ -42,7 +42,6 @@ h2 {
 h3 {
     margin: 0;
     text-align: center;
-    color: var(--white);
     z-index: 2;
     text-transform: uppercase;
     font-size: 14px;
@@ -51,13 +50,8 @@ h3 {
 h4 {
     margin: 0;
     text-align: center;
-    color: var(--white);
     z-index: 2;
-    font-size: 16px;
-}
-
-.home {
-
+    font-size: 18px;
 }
 
 .logo {
@@ -94,6 +88,40 @@ h4 {
     background-color: var(--main-third);
 }
 
-.border-bottom {
+.border-white {
     border-bottom: 2px solid var(--white);
 }
+.border-black {
+    border-bottom: 2px solid var(--theme);
+}
+
+.white {
+    color: var(--white);
+}
+.black {
+    color: var(--theme);
+}
+
+.left {
+    text-align: end;
+}
+
+.arrow-down {
+    transform: rotate(180deg);
+    transition: transform 0.2s ease;
+}
+.arrow-up {
+    transform: rotate(360deg);
+    transition: transform 0.2s ease;
+}
+.hidden {
+    /*height: 0;*/
+    /*transition: 0.2s;*/
+    /*opacity: 0;*/
+    display: none;
+}
+
+.thin {
+    font-weight: lighter;
+}
+
