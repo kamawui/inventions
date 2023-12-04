@@ -1,17 +1,19 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "../styles/styles.css";
 import Header from "../components/header/Header";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import Footer from "../components/footer/Footer";
+import HistoryPage from "../pages/HistoryPage";
 
 const App = () => {
     return (
         <BrowserRouter>
             <div className="app">
-                <Header/>
+                <Header />
                 <Routes>
-                    <Route index exact path="/" element={<HomePage/>}/>
+                    <Route index exact path="/" element={ <HomePage/>} />
+                    <Route exact path="/history" element={ <HistoryPage/> }/>
                 </Routes>
                 <Footer />
             </div>
