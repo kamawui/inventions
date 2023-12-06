@@ -10,6 +10,11 @@
     --history-fourth: #434c5f;
     --history-fifth: #717a98;
     --history-text: #c8a579;
+    --structure-first: #0b1721;
+    --structure-second: #123245;
+    --structure-third: #1b4d60;
+    --structure-fourth: #1b404c;
+    --structure-text: #c8a579;
     --theme: #032232;
     --black: #171717;
 }
@@ -107,6 +112,18 @@ h4 {
 }
 .history5 {
     background-color: var(--history-fifth);
+}
+.structure1 {
+    background-color: var(--structure-first);
+}
+.structure2 {
+    background-color: var(--structure-second);
+}
+.structure3 {
+    background-color: var(--structure-third);
+}
+.structure4 {
+    background-color: var(--structure-fourth);
 }
 
 .border-white {

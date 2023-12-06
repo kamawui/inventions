@@ -4,11 +4,28 @@ import GitHubLogo from "../../svg/GitHubLogo";
 import DiscordLogo from "../../svg/DiscordLogo";
 import {Link} from "react-router-dom";
 
-const Header = () => {
-    const [path, setPath] = useState(window.location.pathname);
+const Header = ({path, setPath}) => {
+    const [isVisible, setIsVisible] = useState(true);
+    const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollPos = window.pageYOffset;
+            const isScrollingDown = currentScrollPos > prevScrollPos;
+
+            setIsVisible(!isScrollingDown);
+            setPrevScrollPos(currentScrollPos);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [prevScrollPos]);
 
     return (
-        <div className="header">
+        <div className={`header ${isVisible ? 'visible' : 'hidden'}`}>
             <ul className="navigation">
                 <li className={path === "/" ? "active-page" : ""}>
                     <Link to="/" onClick={() => setPath("/")}>Головна</Link>
@@ -16,8 +33,8 @@ const Header = () => {
                 <li className={path === "/history" ? "active-page" : ""}>
                     <Link to="/history" onClick={() => setPath("/history")}>Історія</Link>
                 </li>
-                <li className={path === "/" ? "" : ""}>
-                    <Link to="/" onClick={() => setPath("/")}>Структура</Link>
+                <li className={path === "/structure" ? "active-page" : ""}>
+                    <Link to="/structure" onClick={() => setPath("/structure")}>Структура</Link>
                 </li>
                 <li className={path === "/" ? "" : ""}>
                     <Link to="/" onClick={() => setPath("/")}>Статистика</Link>

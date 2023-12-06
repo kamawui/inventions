@@ -4,10 +4,10 @@ import Description from "../components/home/description/Description";
 import Bio from "../components/home/bio/Bio";
 import Technologies from "../components/home/technologies/Technologies";
 
-const HomePage = () => {
+const HomePage = ({setPath}) => {
     return (
         <div className="home">
-            <Intro />
+            <Intro setPath={setPath}/>
             <Description />
             <Bio />
             <Technologies />

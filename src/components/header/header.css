@@ -14,6 +14,21 @@
     margin: 30px auto;
     z-index: 100;
     box-shadow: 1px 3px 12px 1px rgba(0,0,0,0.75);
+    backface-visibility: hidden;
+}
+.header.visible {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+    visibility: visible;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    backface-visibility: hidden;
+}
+.header.hidden {
+    transform: translate(-50%, -100%);
+    opacity: 0;
+    visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
 .navigation, .links {
     display: flex;

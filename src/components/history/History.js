@@ -1,14 +1,18 @@
-import React from "react";
-import "./history.css";
-import WWW from "../../svg/WWW";
-import Web from "../../svg/Web";
+import React, {useState} from "react";
+import {useNavigate} from "react-router";
 
-const History = () => {
+const History = ({setPath}) => {
+    const navigate = useNavigate();
+
     return (
         <div className="history-wrapper">
             <div className="main white border-white" style={{backgroundImage: "url('/img/home3.jpg')"}}>
                 <div className="overlay"></div>
                 <h1>Від ARPANET до Сучасності</h1>
+                <button className="call-to-action" onClick={() => {
+                    setPath("/structure");
+                    navigate("/structure");
+                }}>Наступна</button>
             </div>
             <div className="title white"><h3>Історія</h3></div>
 

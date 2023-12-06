@@ -1,26 +1,29 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import "../styles/styles.css";
 import Header from "../components/header/Header";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import Footer from "../components/footer/Footer";
 import HistoryPage from "../pages/HistoryPage";
+import Structure from "../components/structure/Structure";
+import StructurePage from "../pages/StructurePage";
 
 const App = () => {
+    const [path, setPath] = useState(window.location.pathname);
+
     return (
         <BrowserRouter>
             <div className="app">
-                <Header />
+                <Header path={path} setPath={setPath}/>
                 <Routes>
-                    <Route index exact path="/" element={ <HomePage/>} />
-                    <Route exact path="/history" element={ <HistoryPage/> }/>
+                    <Route index exact path="/" element={ <HomePage setPath={setPath}/>} />
+                    <Route exact path="/history" element={ <HistoryPage setPath={setPath}/> }/>
+                    <Route exact path="/structure" element={ <StructurePage setPath={setPath}/> }/>
                 </Routes>
-                <Footer />
+                <Footer path={path}/>
             </div>
         </BrowserRouter>
     )
 }
-
-//rawpixel: <a href="https://ru.freepik.com/free-photo/futuristic-smart-city-with-5g-global-network-technology_13463111.htm#query=internet&position=9&from_view=search&track=sph&uuid=c4da4b32-90aa-4ca9-8730-5385ac355767">Изображение от rawpixel.com</a> на Freepik
 
 export default App;

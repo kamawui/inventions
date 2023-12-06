@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 
-const Footer = () => {
+const Footer = ({path}) => {
     return (
         <div className="footer">
             <div className="footer-wrapper">
