@@ -7,6 +7,7 @@ import Footer from "../components/footer/Footer";
 import HistoryPage from "../pages/HistoryPage";
 import Structure from "../components/structure/Structure";
 import StructurePage from "../pages/StructurePage";
+import StatisticsPage from "../pages/StatisticsPage";
 
 const App = () => {
     const [path, setPath] = useState(window.location.pathname);
@@ -18,7 +19,8 @@ const App = () => {
                 <Routes>
                     <Route index exact path="/" element={ <HomePage setPath={setPath}/>} />
                     <Route exact path="/history" element={ <HistoryPage setPath={setPath}/> }/>
-                    <Route exact path="/structure" element={ <StructurePage setPath={setPath}/> }/>
+                    <Route exact path="/structure" element={ <StructurePage setPath={setPath}/> } />
+                    <Route exact path="/statistics" element={ <StatisticsPage setPath={setPath} /> } />
                 </Routes>
                 <Footer path={path}/>
             </div>

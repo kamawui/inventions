@@ -1,6 +1,8 @@
 .footer-wrapper {
     background-color: var(--theme);
     padding: 40px 0;
+    z-index: 1000;
+    box-shadow: 1px -1px 10px 10px rgba(0, 0, 0, 0.75);
 }
 .footer-content {
     width: 1140px;

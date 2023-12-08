@@ -6,7 +6,7 @@ const History = ({setPath}) => {
 
     return (
         <div className="history-wrapper">
-            <div className="main white border-white" style={{backgroundImage: "url('/img/home3.jpg')"}}>
+            <div className="main white border-white" style={{backgroundImage: "url('/img/history.jpg')"}}>
                 <div className="overlay"></div>
                 <h1>Від ARPANET до Сучасності</h1>
                 <button className="call-to-action" onClick={() => {

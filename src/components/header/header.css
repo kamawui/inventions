@@ -20,7 +20,7 @@
     transform: translate(-50%, 50%);
     opacity: 1;
     visibility: visible;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     backface-visibility: hidden;
 }
 .header.hidden {

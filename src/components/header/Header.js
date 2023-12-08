@@ -36,8 +36,8 @@ const Header = ({path, setPath}) => {
                 <li className={path === "/structure" ? "active-page" : ""}>
                     <Link to="/structure" onClick={() => setPath("/structure")}>Структура</Link>
                 </li>
-                <li className={path === "/" ? "" : ""}>
-                    <Link to="/" onClick={() => setPath("/")}>Статистика</Link>
+                <li className={path === "/statistics" ? "active-page" : ""}>
+                    <Link to="/statistics" onClick={() => setPath("/statistics")}>Статистика</Link>
                 </li>
                 <li className={path === "/" ? "" : ""}>
                     <Link to="/" onClick={() => setPath("/")}>Безпека</Link>
