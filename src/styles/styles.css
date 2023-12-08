@@ -8,7 +8,6 @@
     --history-second: #273245;
     --history-third: #343e4e;
     --history-fourth: #434c5f;
-    --history-fifth: #717a98;
     --history-text: #c8a579;
     --structure-first: #0b1721;
     --structure-second: #123245;
@@ -18,7 +17,6 @@
     --statistics-second: #261b5b;
     --statistics-third: #392783;
     --statistics-fourth: #5d3fcc;
-    --statistics-fifth: #c687f5;
     --structure-text: #c8a579;
     --theme: #032232;
     --black: #171717;
@@ -99,7 +97,6 @@ h4 {
 .main-2nd {
     background-color: var(--main-second);
 }
-
 .main-3d {
     background-color: var(--main-third);
 }
@@ -114,9 +111,6 @@ h4 {
 }
 .history4 {
     background-color: var(--history-fourth);
-}
-.history5 {
-    background-color: var(--history-fifth);
 }
 .structure1 {
     background-color: var(--structure-first);
@@ -141,9 +135,6 @@ h4 {
 }
 .statistics4 {
     background-color: var(--statistics-fourth);
-}
-.statistics5 {
-    background-color: var(--statistics-fifth);
 }
 
 .border-white {
@@ -174,9 +165,6 @@ h4 {
     transition: transform 0.2s ease;
 }
 .hidden {
-    /*height: 0;*/
-    /*transition: 0.2s;*/
-    /*opacity: 0;*/
     display: none;
 }
 
