@@ -15,8 +15,8 @@ const Statistics = ({setPath}) => {
                 <div className="overlay"></div>
                 <h1>Глобальні статистики</h1>
                 <button className="call-to-action" onClick={() => {
-                    setPath("/statistics");
-                    navigate("/statistics");
+                    setPath("/security");
+                    navigate("/security");
                 }}>Наступна</button>
             </div>
             <div className="title white"><h3>Статистика</h3></div>

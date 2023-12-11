@@ -17,6 +17,10 @@
     --statistics-second: #261b5b;
     --statistics-third: #392783;
     --statistics-fourth: #5d3fcc;
+    --security-first: #0c142d;
+    --security-second: #052d76;
+    --security-third: #0d3655;
+    --security-fourth: #09617d;
     --structure-text: #c8a579;
     --theme: #032232;
     --black: #171717;
@@ -90,53 +94,6 @@ h4 {
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-.main-1st {
-    background-color: var(--main-first);
-}
-
-.main-2nd {
-    background-color: var(--main-second);
-}
-.main-3d {
-    background-color: var(--main-third);
-}
-.history1 {
-    background-color: var(--history-first);
-}
-.history2 {
-    background-color: var(--history-second);
-}
-.history3 {
-    background-color: var(--history-third);
-}
-.history4 {
-    background-color: var(--history-fourth);
-}
-.structure1 {
-    background-color: var(--structure-first);
-}
-.structure2 {
-    background-color: var(--structure-second);
-}
-.structure3 {
-    background-color: var(--structure-third);
-}
-.structure4 {
-    background-color: var(--structure-fourth);
-}
-.statistics1 {
-    background-color: var(--statistics-first);
-}
-.statistics2 {
-    background-color: var(--statistics-second);
-}
-.statistics3 {
-    background-color: var(--statistics-third);
-}
-.statistics4 {
-    background-color: var(--statistics-fourth);
-}
-
 .border-white {
     border-bottom: 2px solid var(--white);
 }
@@ -204,6 +161,9 @@ h4 {
 .box-header {
     text-align: center;
     margin: 0 20px;
+}
+.box-header h2 {
+    width: 420px;
 }
 .intro {
     display: flex;

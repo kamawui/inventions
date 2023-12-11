@@ -1,0 +1,61 @@
+.main-1st {
+    background-color: var(--main-first);
+}
+.main-2nd {
+    background-color: var(--main-second);
+}
+.main-3d {
+    background-color: var(--main-third);
+}
+
+.history1 {
+    background-color: var(--history-first);
+}
+.history2 {
+    background-color: var(--history-second);
+}
+.history3 {
+    background-color: var(--history-third);
+}
+.history4 {
+    background-color: var(--history-fourth);
+}
+
+.structure1 {
+    background-color: var(--structure-first);
+}
+.structure2 {
+    background-color: var(--structure-second);
+}
+.structure3 {
+    background-color: var(--structure-third);
+}
+.structure4 {
+    background-color: var(--structure-fourth);
+}
+
+.statistics1 {
+    background-color: var(--statistics-first);
+}
+.statistics2 {
+    background-color: var(--statistics-second);
+}
+.statistics3 {
+    background-color: var(--statistics-third);
+}
+.statistics4 {
+    background-color: var(--statistics-fourth);
+}
+
+.security1 {
+    background-color: var(--security-first);
+}
+.security2 {
+    background-color: var(--security-second);
+}
+.security3 {
+    background-color: var(--security-third);
+}
+.security4 {
+    background-color: var(--security-fourth);
+}

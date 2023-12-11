@@ -1,5 +1,4 @@
 import React from "react";
-import "./imageModal.css";
 
 const ImageModal = ({active, setActive, url, alt}) => {
     return (
