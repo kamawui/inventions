@@ -21,6 +21,10 @@ const Footer = ({path}) => {
                             <span>Офіційна статистика: </span>
                             <a href="https://www.statista.com/">Statista</a>
                         </div>
+                        <div className="resource">
+                            <span>Деяка інформація взята з: </span>
+                            <a href="https://www.wikipedia.com.ua/">Wikipedia</a>
+                        </div>
                     </div>
                     <div className="footer-right footer-content-item">
                         <div className="footer-header"><h4>Автор: </h4></div>
