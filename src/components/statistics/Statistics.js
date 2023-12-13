@@ -11,7 +11,7 @@ const Statistics = ({setPath}) => {
 
     return (
         <div className="structure-wrapper">
-            <div className="main white border-white" style={{backgroundImage: "url('/img/mobile/statistics.jpg')"}}>
+            <div className="main white border-white" style={{backgroundImage: "url('/img/statistics.jpg')"}}>
                 <div className="overlay"></div>
                 <h1>Глобальні статистики</h1>
                 <button className="call-to-action" onClick={() => {

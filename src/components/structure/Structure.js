@@ -6,7 +6,7 @@ const Structure = ({setPath}) => {
 
     return (
         <div className="structure-wrapper">
-            <div className="main white border-white" style={{backgroundImage: "url('/img/mobile/structure.jpg')"}}>
+            <div className="main white border-white structure-image" style={{backgroundImage: "url('/img/structure.jpg')"}}>
                 <div className="overlay"></div>
                 <h1>Структура та іерархія Інтернету</h1>
                 <button className="call-to-action" onClick={() => {
