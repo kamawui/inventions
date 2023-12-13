@@ -44,3 +44,9 @@
 .navigation > .active-page > a {
     color: #dc3545;
 }
+
+@media (max-width: 820px) {
+    .header {
+        display: none;
+    }
+}

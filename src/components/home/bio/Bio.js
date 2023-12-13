@@ -6,10 +6,10 @@ const Bio = () => {
        <div className="bio">
             <div className="bio-content white">
                 <div className="bio-header border-white"><h2>Про автора</h2></div>
-                <div className="bio-item"><h4>Автор: </h4> Бурлаченко Даніїл Андрійович</div>
-                <div className="bio-item"><h4>Клас: </h4> 11</div>
-                <div className="bio-item"><h4>Школа: </h4> Вижницький опорний ліцей імені Юрія Федьковича</div>
-                <div className="bio-item"><h4>Вчитель: </h4> Ізбінський Олександр Дмитрович</div>
+                <div className="bio-item"><h4>Автор: </h4> <span>Бурлаченко Даніїл Андрійович</span></div>
+                <div className="bio-item"><h4>Клас: </h4> <span>11</span></div>
+                <div className="bio-item"><h4>Школа: </h4> <span>Вижницький опорний ліцей імені Юрія Федьковича</span></div>
+                <div className="bio-item"><h4>Вчитель: </h4> <span>Ізбінський Олександр Дмитрович</span></div>
             </div>
        </div>
    )

@@ -6,7 +6,7 @@ const Footer = ({path}) => {
         <div className="footer">
             <div className="footer-wrapper">
                 <div className="footer-content white">
-                    <div className="footer-left">
+                    <div className="footer-left footer-content-item">
                         <div className="footer-header"><h4>Використані ресурси: </h4></div>
                         <div className="resource">
                             <span>Зображення: </span>
@@ -22,7 +22,7 @@ const Footer = ({path}) => {
                             <a href="https://www.statista.com/">Statista</a>
                         </div>
                     </div>
-                    <div className="footer-right">
+                    <div className="footer-right footer-content-item">
                         <div className="footer-header"><h4>Автор: </h4></div>
                         <div className="link">
                             <span>Я в </span>

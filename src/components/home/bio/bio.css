@@ -1,6 +1,7 @@
 .bio {
     background-color: var(--theme);
     padding: 40px 0;
+    box-shadow: 1px 3px 12px 1px rgba(68, 68, 68, 0.75);
 }
 .bio-content {
     width: 1140px;
@@ -15,4 +16,18 @@
     color: var(--white);
     border-bottom: 1px solid var(--white-selected);
     padding: 10px 0;
+}
+.bio-item h4 {
+    margin-right: 20px ;
+}
+.bio-item span {
+    text-align: end;
+}
+@media (max-width: 820px) {
+    .bio {
+        padding: 40px 10px;
+    }
+    .bio-content {
+        width: 90%;
+    }
 }

@@ -23,3 +23,13 @@
 .main > button {
     margin: 10px 0 0;
 }
+@media (max-width: 820px) {
+    .header {
+        display: none;
+    }
+    .main {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

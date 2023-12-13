@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import "../styles/styles.css";
 import "../styles/backgrounds.css";
 import Header from "../components/header/Header";
@@ -9,13 +9,17 @@ import HistoryPage from "../pages/HistoryPage";
 import StructurePage from "../pages/StructurePage";
 import StatisticsPage from "../pages/StatisticsPage";
 import SecurityPage from "../pages/SecurityPage";
+import Navigation from "../components/navigation/Navigation";
 
 const App = () => {
     const [path, setPath] = useState(window.location.pathname);
 
+    useEffect(() =>  window.scrollTo(0, 0), [path]);
+
     return (
         <BrowserRouter>
             <div className="app">
+                <Navigation path={path} setPath={setPath}/>
                 <Header path={path} setPath={setPath}/>
                 <Routes>
                     <Route index exact path="/" element={ <HomePage setPath={setPath}/>} />

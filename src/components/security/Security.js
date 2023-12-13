@@ -6,7 +6,7 @@ const Security = ({setPath}) => {
 
     return (
         <div className="structure-wrapper">
-            <div className="main white border-white" style={{backgroundImage: "url('/img/security.jpg')"}}>
+            <div className="main white border-white" style={{backgroundImage: "url('/img/mobile/security.jpg')"}}>
                 <div className="overlay"></div>
                 <h1>Безпека в Інтернеті</h1>
                 <button className="call-to-action" onClick={() => {
