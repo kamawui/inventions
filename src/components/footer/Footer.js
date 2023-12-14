@@ -24,6 +24,7 @@ const Footer = ({path}) => {
                         <div className="resource">
                             <span>Деяка інформація взята з: </span>
                             <a href="https://www.wikipedia.com.ua/">Wikipedia</a>
+                            <a href="https://e-server.com.ua/uk/poradi/istorija-rozvitku-internetu">EServer</a>
                         </div>
                     </div>
                     <div className="footer-right footer-content-item">
