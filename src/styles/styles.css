@@ -110,8 +110,11 @@ h4 {
     color: var(--theme);
 }
 
-.left {
+.right {
     text-align: end;
+}
+.left {
+    text-align: start;
 }
 
 

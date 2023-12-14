@@ -1,0 +1,26 @@
+.essay {
+    padding: 40px 0;
+    width: 1140px;
+    margin: 0 auto;
+}
+.essay-content {
+    padding: 10px 0;
+}
+.essay-header {
+    color: var(--main-second);
+    padding: 10px 0;
+}
+.essay-header h4 {
+    text-align: start;
+}
+.essay-header span {
+    color: var(--theme);
+}
+.essay-header a {
+    color: var(--main-second);
+}
+@media (max-width: 820px) {
+    .essay {
+        width: 90%;
+    }
+}
