@@ -31,7 +31,8 @@ const Essay = () => {
                 <div className="technologies-header border-black black"><h2>Технічні аспекти</h2></div>
                 <div className="essay-header"><h4><span>React та компонентний підхід: </span>Використання React дозволило розбити сайт на компоненти, що полегшує розробку, тестування та підтримку коду.</h4></div>
                 <div className="essay-header"><h4><span>React Router: </span>Для забезпечення навігації між сторінками використано React Router, що забезпечує швидкий та зручний перехід між розділами сайту.</h4></div>
-                <div className="essay-header"><h4><span>GitHub: </span>Керування версіями реалізована за допомогою  веб-сервісу GitHub. Зміни в коді відстежуються та об'єднуються в системі контролю версій.</h4></div>
+                <div className="essay-header"><h4><span>GitHub: </span>Керування версіями реалізована за допомогою  веб-сервісу
+                    <a href="https://github.com/kamawui/inventions">GitHub</a>. Зміни в коді відстежуються та об'єднуються в системі контролю версій.</h4></div>
                 <div className="essay-header"><h4><span>Деплой за допомогою Vercel: </span>Для публікації проекту в Інтернеті використано сервіс Vercel, що дозволяє швидко та зручно розгортати веб-додатки.</h4></div>
                 <div className="essay-header"><h4><span>Стилі: </span>Для створення стилів елементів сайту використано CSS</h4></div>
             </div>
